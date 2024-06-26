@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_Display } from "next/font/google";
+import { esES } from "@clerk/localizations";
 import { ClerkProvider } from '@clerk/nextjs'
 import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
@@ -19,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
-      <html lang="en">
+    <ClerkProvider localization={esES}>
+      <html lang="es">
         <body className={noto.className}>
           <ThemeProvider
             attribute="class"

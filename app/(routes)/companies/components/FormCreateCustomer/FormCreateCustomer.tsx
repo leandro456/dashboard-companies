@@ -105,6 +105,7 @@ export function FormCreateCustomer(props: FormCreateCustomerProps) {
                                             <SelectItem value="portugal">Portugal</SelectItem>
                                             <SelectItem value="grecia">Grecia</SelectItem>
                                             <SelectItem value="italia">Italia</SelectItem>
+                                            <SelectItem value="bolivia">Bolivia</SelectItem>
                                         </SelectContent>
                                     </Select>
                                     <FormMessage />
